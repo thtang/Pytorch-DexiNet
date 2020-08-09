@@ -401,7 +401,7 @@ def save_image_batch_to_disk(tensor, output_dir, file_names, img_shape=None,arg=
                     fuse = tmp_img
                 if show_layer_example==0:
                   print("save multi-layer outputs")
-                  cv.imwrite(os.path.join('result','multi_layer_outputs','{}}_{}.png'.format(i)), tmp_img)
+                  cv.imwrite(os.path.join('result','multi_layer_outputs','{}_{}.png'.format(file_name[:-4],i)), tmp_img)
             average = np.array(preds,dtype=np.float32)
             average = np.uint8(np.mean(average,axis=0))
             output_file_name_f = os.path.join(output_dir_f, file_name)

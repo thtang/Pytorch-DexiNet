@@ -30,7 +30,7 @@ And set for testing the following lines:
 ```
 python main.py --is_testing=True --use_prev_trained True --checkpoint_data 24/24_model.pth
 ```
-
+Colab [[link]](https://colab.research.google.com/drive/1zeOKkz3f-0vp-WuY-nGgaK50pPegFXpy?usp=sharing)
 ```
 - The whole of input image are sized with the same image width and height if you could help us setting with individual image size we will thank you :)
 
